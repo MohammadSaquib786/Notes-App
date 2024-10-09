@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Afacad+Flux:100,200,300,regular,500,600,700,800,900);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+textarea {  
+  resize: none;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+body {
+
+  background-color: #D9AFD9;
+  /* background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%); */
+  
+  font-family: Afacad Flux;
+  /* border: 10px solid green; */
+  /* background-image: url('Pages/Background.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  backdrop-filter: blur(6px) saturate(200%);
+  -webkit-backdrop-filter: blur(8px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125); */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* Glassmorphism card effect */
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
