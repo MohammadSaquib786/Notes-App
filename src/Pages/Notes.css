@@ -339,7 +339,6 @@
     }
 
     .h1-tag {
-       
         margin-top: 50px;
         width: 250px;
         font-size: 3rem;
@@ -351,7 +350,7 @@
     }
 
     .save-notes {
-        border: 2px solid pink;
+       
         font: 1em sans-serif;
         margin-left: 15px;
         margin-top: 20px;

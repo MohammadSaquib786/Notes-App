@@ -3,7 +3,6 @@ import './Notes.css'
 import { TfiWrite } from "react-icons/tfi";
 import laptop2 from './laptop2.jpeg'
 import Logo2 from './Logo2.png'
-import { LiaSearchengin } from "react-icons/lia";
 import { GrDocumentNotes } from "react-icons/gr";
 import Typewrite from './Textanimation/Text';
 
@@ -144,7 +143,7 @@ function Notes() {
 
             ))
           ) : (
-            <div style={{ marginLeft: '550px', color: 'white' }}>
+            <div style={{ color: 'white' }}>
               <h2 >No matching notes found.</h2>
             </div>
           )
