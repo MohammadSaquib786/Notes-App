@@ -58,7 +58,6 @@ function Notes() {
             type="text"
             placeholder="Search Notes"
             onChange={(e) => setSearch(e.target.value)} />
-          <LiaSearchengin style={{ color: 'black', position: 'relative', marginLeft: '275px', marginTop: '18px', width: '20px', cursor: 'pointer' }} />
         </form>
         <img src={Logo2} alt='' width='100px' height='50px' style={{ marginBottom: '5px' }} />
       </div>

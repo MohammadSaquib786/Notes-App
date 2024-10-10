@@ -36,3 +36,119 @@ body {
 
 
 
+.Btn:hover {
+  width: 125px;
+  border-radius: 0px;
+  transition-duration: .3s;
+}
+
+.Btn:hover .sign {
+  width: 30%;
+  transition-duration: .3s;
+  padding-left: 20px;
+}
+
+/* hover effect button's text */
+.Btn:hover .text {
+  opacity: 1;
+  width: 70%;
+  transition-duration: .3s;
+  padding-right: 20px;
+}
+
+/* button click effect*/
+.Btn:active {
+  transform: translate(2px, 2px);
+}
+
+/* Save Button css */
+
+/* From Uiverse.io by Madflows */
+.button-save {
+  margin-left: 10px;
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #3d3a4e;
+  background-size: 400%;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button-save:hover::before {
+  transform: scaleX(1);
+}
+
+.button-save-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button-save::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(82.3deg,
+          rgba(149, 93, 233, 0.438) 10.8%,
+          rgba(98, 88, 238, 0.292) 94.3%);
+  transition: all 0.475s;
+}
+
+
+/* Delete Button  */
+/* From Uiverse.io by vinodjangid07 */
+.button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #1f59a5;
+  border: none;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: relative;
+  gap: 2px;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+}
+
+.svgIcon {
+  width: 12px;
+  transition-duration: 0.3s;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+.button:hover {
+  transition-duration: 0.3s;
+  background-color: rgb(255, 69, 69);
+  align-items: center;
+  gap: 0;
+}
+
+.bin-top {
+  transform-origin: bottom right;
+}
+
+.button:hover .bin-top {
+  transition-duration: 0.5s;
+  transform: rotate(160deg);
+}

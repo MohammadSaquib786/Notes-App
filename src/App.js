@@ -3,7 +3,7 @@ import Notes from './Pages/Notes';
 
 function App() { 
   return (
-    <div className="App">
+    <div className="App"> 
       <Notes />
     </div>
   );
